@@ -1,0 +1,94 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- Greetings -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hey there! What can I do for you?</template>
+  </category>
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>Good morning! ☀️</template>
+  </category>
+
+  <category>
+    <pattern>GOOD NIGHT</pattern>
+    <template>Sleep well! 🌙</template>
+  </category>
+
+  <!-- Identity -->
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>I am AIML Bot created by Allwin 😎</template>
+  </category>
+
+  <category>
+    <pattern>WHO CREATED YOU</pattern>
+    <template>Allwin, the genius developer! 💻</template>
+  </category>
+
+  <!-- Small Talk -->
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm doing great, thanks for asking! 😊</template>
+  </category>
+
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can chat with you, answer questions, and make your day better!</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>Why did the computer go to the doctor? Because it had a virus! 😂</template>
+  </category>
+
+  <!-- Info -->
+  <category>
+    <pattern>WHAT IS PYTHON</pattern>
+    <template>Python is a powerful programming language used in AI, web, and automation.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS HTML</pattern>
+    <template>HTML is the standard language used to create webpages.</template>
+  </category>
+
+  <!-- Time -->
+  <category>
+    <pattern>WHAT TIME IS IT</pattern>
+    <template>Sorry, I can't access the real-time clock yet.</template>
+  </category>
+
+  <!-- Goodbye -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Take care! 👋</template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU</pattern>
+    <template>See you soon! 😊</template>
+  </category>
+
+  <!-- Fallback -->
+  <category>
+    <pattern>*</pattern>
+    <template>I didn’t quite get that. Try again?</template>
+  </category>
+  <category>
+  <pattern>SEE YOU LATER</pattern>
+  <template>See you later, take care! 👋</template>
+</category>
+
+<category>
+  <pattern>GOODBYE</pattern>
+  <template>Bye! Catch you soon!</template>
+</category>
+
+</aiml>
